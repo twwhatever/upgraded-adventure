@@ -29,3 +29,9 @@
 
 # Compiled WASM files
 *.wasm
+
+# Rust build artifacts
+wasm/rust/target/*
+
+# node_modules
+node_modules/

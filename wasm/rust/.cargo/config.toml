@@ -1,0 +1,3 @@
+
+[target.'cfg(target_arch = "wasm32")']
+rustflags = ["-C", "link-args=--export malloc", "-C", "link-args=--export free"]
